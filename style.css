@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: 'poppins', sans-serif;
 }
 
@@ -12,71 +12,118 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color:#fff;
+    color: #fff;
     padding: 0 7%;
     position: relative;
 }
 
-nav{
-    width:100%;
-    display:flex;
-    align-items:center;
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding:30px 0 10px;
+    padding: 30px 0 10px;
 }
 
-.logo{
-    width:300px;
-    cursor:pointer;
+.logo {
+    width: 300px;
+    cursor: pointer;
     font-size: 35px;
     font-weight: 500;
+    display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 17px;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
-    margin:10px 30px;
+    margin: 10px 30px;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #ff3e3b;
 }
 
-.text-box{
-    margin-top:16%;
-    font-size:22px;
+.text-box {
+    margin-top: 16%;
+    font-size: 22px;
     text-align: center;
 }
 
-.text-box h1{
+.text-box h1 {
     font-size: 85px;
     font-weight: 600;
     line-height: 100px;
     margin-bottom: 10px;
 }
 
-.text-box .btn{
+.text-box .btn {
     outline: none;
     border: none;
     /* font-size: 16px; */
-    margin-top:30px;
+    margin-top: 30px;
     background-color: #ff3e3b;
-    color:#fff;
+    color: #fff;
     padding: 14px 40px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.text-box .btn:hover{
+.text-box .btn:hover {
     background-color: #ff3e3b;
 }
 
+.log-in {
+    background-color: #ff3e3b;
+    border-radius: 20px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Trade */
+.trade p {
+    font-size: 23px;
+    padding: 5%;
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+}
+
+.trade {
+    height: auto;
+}
+
+/* buddy finde- About */
+.buddy-finder {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 20px;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+/* Testimonials */
 .testimonials {
     margin: 50px auto;
 }
@@ -85,7 +132,6 @@ nav ul li a:hover{
     text-align: center;
     font-weight: bold;
     color: #ff9800;
-    padding-bottom: 10px;
 }
 
 .testimonials h1::after {
@@ -95,10 +141,6 @@ nav ul li a:hover{
     height: 3px;
     width: 170px;
     margin: 20px auto 5px;
-}
-
-.testimonials .row {
-    margin-top: 30px;
 }
 
 .testimonials .col {
@@ -113,7 +155,7 @@ nav ul li a:hover{
     padding: 20px;
 }
 
-hr {
+.profile hr {
     width: 80%;
 }
 
@@ -129,59 +171,32 @@ blockquote::before {
 
 blockquote::after {
     content: close-quote;
-
 }
 
-.trade p {
-    font-size: 25px;
-    padding: 100px 0;
-    text-align: center;
+/* Footer */
+ul {
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.trade{
-    height:auto;
-}
-
-.trade-content{
-    width:50%;
-    margin: auto;
-}
-
-.buddy-finder {
-    background-color: black;
-    width: 100%;
+.social {
     height: auto;
+    padding: 40px 0;
 }
 
-.heading {
-    color: white;
+.social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.footer-block {
+    height: 30px;
+    padding: 20px auto 10px;
     text-align: center;
-    padding-top: 30px;
-    font-size: 40px;
-}
-
-.content p{
-    color:white;
-    font-size:20px;
-    
-}
-
-.logo{
-    display:inline;
-}
-
-.footer{
-    text-align: center;
-    height:30vh;
-    line-height: 25px;
-}
-
-.log-in{
-    background-color: #ff3e3b;
-    border-radius:20px;
-    border:none;
-    width:80px;
-    height:40px;
-    color: white;
-    cursor:pointer;
 }
